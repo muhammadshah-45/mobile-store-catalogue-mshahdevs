@@ -13,13 +13,6 @@ html, body{
     background: rgb(237, 230, 230);
     
 }
-#wrapper{
-    width: 100%;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    
-}
 header{
     width: 100%;
     height: 7%;
@@ -31,6 +24,7 @@ header{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.849);
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid red;
 }
 header p{
     font-family: "Ubuntu";
@@ -75,6 +69,7 @@ nav{
     align-items: center;
     gap: 5px;
     opacity: 0;
+    border: 1px solid red;
 }
 nav ul{
     width: 40%;
@@ -86,25 +81,35 @@ nav ul{
     background-color:white;
     box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.4);
     border-radius:6px ;
-
+    
     
 }
 nav ul li{
     list-style: none;
-
+    
     padding: 5px;
     border:none ;
     border-radius: 5px;
 }
+#wrapper{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+   border: 1px solid red;
+    
+    
+}
 /* main section */
 .main{
-    width: 70%;
+    width: 74%;
     display: flex;
     gap: 2rem;
     padding: 20px 0;
     justify-content: space-around;
     align-items: center;
     margin-top:-37px;
+    border: 1px solid red;
 }
 .left{
     width: 20%;
@@ -138,7 +143,7 @@ nav ul li{
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(40, 40, 40, 0.5);
 }
-.nav{
+.left .nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,6 +187,7 @@ nav ul li{
     background-color: rgba(0, 0, 0, 0.4);
     position: relative;
     border-radius: 10px;
+    border: 1px solid red;
 }
 .overlay h2{
     position: absolute;
@@ -206,16 +212,20 @@ h1{
     margin-bottom: 2%;
     text-shadow: 0 7px 10px  black;
 }
+
 .phones{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 20px;
+    border: 1px solid red;
 }
 .phones img{
     width: 100%;
+    object-fit: contain;
 }
 .card {
     width: 19%;
@@ -224,7 +234,7 @@ h1{
     padding: 10px 0;
     cursor: pointer;
     border-radius: 2%;
-
+    
     transition:all .7s;
     /* z-index: -1; */
 }
@@ -244,6 +254,115 @@ h1{
     font-size: 12px;
 }
 
+/* Laptops Section */
+
+
+.laptops{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+.laptops img{
+    width: 100%;
+}
+.laptopscard {
+    width: 19%;
+    background-color: #ffffffa7;
+    backdrop-filter: blur(20px);
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 2%;
+    
+    transition:all .7s;
+    /* z-index: -1; */
+}
+.laptopscard img{
+    width: 60%;
+    border-radius: 3%;
+}
+.laptopscard:hover{
+    border-radius: 2%;
+    box-shadow: 0px 5px 5px   rgba(61, 60, 60, 0.4);
+}
+.laptopscard , h3{
+    text-align: center;
+    color:black;
+}
+.laptopscard p{
+    font-size: 12px;
+}
+
+
+/* Watches Section */
+
+.watches{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+.watches img{
+    width: 100%;
+    object-fit: contain;
+}
+.watches-card {
+    width: 19%;
+    background-color: #ffffffa7;
+    backdrop-filter: blur(20px);
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition:all .7s;
+    /* z-index: -1; */
+}
+.watches-card img{
+    width: 42%;
+    border-radius: 3%;
+}
+.watches-card:hover{
+    border-radius: 2%;
+    box-shadow: 0px 5px 5px   rgba(61, 60, 60, 0.4);
+}
+.watches-card , h3{
+    text-align: center;
+    color:black;
+    width: 42%;
+}
+.watches-card p{
+    font-size: 12px;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.849);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+footer .icon-footer{
+    margin: 20px;
+    
+}
+
+.icon-footer .bi {
+    padding: 0 7px;
+    font-size: 19px;
+}
 
 
 /* Media Queries for All Devices */
@@ -324,6 +443,32 @@ h1{
     .right{
         width: 100%;
     }
+    .card , h3{
+        text-align: center;
+        color:black;
+        font-size: 10px;
+    }
+    .card p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .laptopscard {
+        width: 36%;
+        background-color: #ffffffa7;
+        backdrop-filter: blur(20px);
+        padding: 10px 0;
+        cursor: pointer;
+        border-radius: 2%;
+        
+        transition:all .7s;
+        /* z-index: -1; */
+    }
+    .card{
+        width: 36%;
+    }
+    .watches-card{
+        width: 30%;
+    }
     
 }
 
@@ -367,18 +512,43 @@ h1{
         width: 100%;
         object-fit: contain;
     }
+    .card , h3{
+        text-align: center;
+        color:black;
+        font-size: 10px;
+    }
+    .card p{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .laptopscard {
+        width: 23%;
+        background-color: #ffffffa7;
+        backdrop-filter: blur(20px);
+        padding: 10px 0;
+        cursor: pointer;
+        border-radius: 2%;
+        
+        transition:all .7s;
+        /* z-index: -1; */
+    }
+    .card{
+        width: 23%;
+    }
 }
 
 @media (max-width:748px) {
     nav{
+        margin-top: 10%;
         opacity: 1;
+        
     }
     nav h4{
         padding: 13px 5px;
         background: rgba(255, 175, 105, 0.5);
         border: none;
         box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.4);
-        border-radius:6px ;
+        border-radius:6px;
     }
     nav ul{
         display: flex;
@@ -409,12 +579,49 @@ h1{
         width: 100%;
         object-fit: contain;
     }
+    .card {
+        width: 24%;
+    }
+    .card , h3{
+        text-align: center;
+        color:black;
+        font-size: 12px;
+    }
+    .card p{
+        margin-top: 5px;
+        font-size: 5px;
+    }
 }
 
 @media (max-width:992px) {
-    
+    .card p{
+        margin-top: 5px;
+        font-size: 9px;
+    }
 }
 
 @media (max-width:1210px) {
-    
+    .left{
+        width: 30%;
+        height: 100%;
+        background-color:white;
+        box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.4);
+        border-radius:10px ;
+        border: none;
+        transition: all 0.4s;
+        gap: 0;
+    }
+    .left .nav{
+        gap: 0;
+    }
+    .left:hover{
+      box-shadow: 1px 1px 7px 3px rgba(116, 116, 116, 0.4);
+    }
+    .left h2{
+        text-align: center;
+    }
+    .left ul li{
+        list-style-type: none;
+        margin-bottom: 2px;
+    }
 }
