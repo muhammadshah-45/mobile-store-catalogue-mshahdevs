@@ -56,7 +56,7 @@ input:focus{
     font-size: 13px;
     position: absolute;
     top: 16%;
-    right: -7%;
+    right: 2%;
     padding: 0 3px;
     
 }
@@ -388,7 +388,7 @@ footer .icon-footer{
     }
     #search .bi-search{
         right: 15%;
-        top: 18%;
+        top: 15%;
         padding: 0 2px;
         font-size: 11px;
     }
@@ -483,10 +483,26 @@ footer .icon-footer{
     }
     
 }
+@media (max-width: 360px) {
+    input{
+        width: 83%;
+    }
+    #search .bi-search {
+        border: 1px solid rgba(188, 188, 188, 0.646);
+        background: #dcdcdcb3;
+        border-radius: 20px;
+        font-size: 13px;
+        position: absolute;
+        top: 16%;
+        right: 18%;
+        padding: 0 3px;
+        opacity: 0;
+    }
+}
 
 @media (max-width:520px) {
     header{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     nav{
         opacity: 1;
@@ -519,6 +535,16 @@ footer .icon-footer{
         background:rgba(145, 143, 143,0.2);
         padding: 5px;
         border:none ;
+    }
+    #search .bi-search {
+        border: 1px solid rgba(188, 188, 188, 0.646);
+        background: #dcdcdcb3;
+        border-radius: 20px;
+        font-size: 13px;
+        position: absolute;
+        top: 16%;
+        right: 15%;
+        padding: 0 3px;
     }
     
     .right{
@@ -586,6 +612,16 @@ footer .icon-footer{
         background:rgba(145, 143, 143,0.2);
         padding: 5px;
         border:none ;
+    }
+    #search .bi-search {
+        border: 1px solid rgba(188, 188, 188, 0.646);
+        background: #dcdcdcb3;
+        border-radius: 20px;
+        font-size: 13px;
+        position: absolute;
+        top: 16%;
+        right: -7%;
+        padding: 0 3px;
     }
     .main{
         width: 87%;
