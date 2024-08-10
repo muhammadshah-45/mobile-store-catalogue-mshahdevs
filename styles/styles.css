@@ -416,6 +416,7 @@ footer .icon-footer{
         border-radius:6px ;
         font-size: 12px;
     }
+    
     nav ul{
         display: flex;
         gap: 5px;
@@ -549,7 +550,7 @@ footer .icon-footer{
     .watches-card, h3 {
         text-align: center;
         color: black;
-        width: 43%;
+        width: 70%;
     }
 }
 
