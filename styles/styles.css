@@ -486,7 +486,7 @@ footer .icon-footer{
 
 @media (max-width:520px) {
     header{
-        justify-content: space-around;
+        justify-content: space-between;
     }
     nav{
         opacity: 1;
