@@ -95,9 +95,11 @@ nav ul{
     
     
 }
-nav ul li{
+nav ul a{
     list-style: none;
-    
+    text-decoration: none;
+     /* font-weight: 700;
+     color: #000; */
     padding: 5px;
     border:none ;
     border-radius: 5px;
@@ -442,7 +444,7 @@ footer .icon-footer{
         width: 50%;
         padding-block:8px ;
     }
-    nav ul li{
+    nav ul a{
         font-family: "Ubuntu";
         padding-block: 2px 30px;
         transition: all .5s ease;
@@ -450,7 +452,7 @@ footer .icon-footer{
         font-size: 5px;
 
     }
-    nav ul li:hover{
+    nav ul a:hover{
         list-style: none;
         background:rgba(145, 143, 143,0.2);
         padding: 5px;
@@ -516,7 +518,7 @@ footer .icon-footer{
         padding: 0 3px;
         opacity: 0;
     }
-    nav ul li{
+    nav ul a{
         font-size: 7px;
     }
 }
@@ -543,7 +545,7 @@ footer .icon-footer{
         width: 50%;
         padding-block:8px ;
     }
-    nav ul li{
+    nav ul a{
         font-family: "Ubuntu";
         padding-block: 2px 30px;
         transition: all .5s ease;
@@ -552,7 +554,7 @@ footer .icon-footer{
         font-weight: 600;
 
     }
-    nav ul li:hover{
+    nav ul a:hover{
         list-style: none;
         background:rgba(145, 143, 143,0.2);
         padding: 5px;
@@ -623,14 +625,14 @@ footer .icon-footer{
         width: 55%;
         padding-block:10px ;
     }
-    nav ul li{
+    nav ul a{
         font-family: "Ubuntu";
         padding-block: 6px;
         transition: all .5s ease;
         cursor: pointer;
         font-weight: 600;
     }
-    nav ul li:hover{
+    nav ul a:hover{
         list-style: none;
         background:rgba(145, 143, 143,0.2);
         padding: 5px;
