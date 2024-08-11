@@ -367,6 +367,9 @@ footer .icon-footer{
     nav ul li{
         font-size: 6px;
     }
+    header{
+    
+    }
 }
 
 @media (max-width:320px) {
@@ -696,5 +699,10 @@ footer .icon-footer{
     }
     .main{
         width: 83%;
+    }
+    header input{
+        
+        width: 100%;
+        padding: 4px 3rem;
     }
 }
