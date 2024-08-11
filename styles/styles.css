@@ -374,14 +374,7 @@ footer .icon-footer{
 
 
 /* Media Queries for All Devices */
-@media (max-width: 300px) {
-    nav ul li{
-        font-size: 6px;
-    }
-    header{
-    
-    }
-}
+
 
 @media (max-width:320px) {
     #search{
@@ -523,7 +516,7 @@ footer .icon-footer{
     }
 }
 
-@media (max-width:520px) {
+@media (max-width:560px) {
     header{
         justify-content: space-around;
     }
@@ -605,6 +598,8 @@ footer .icon-footer{
         width: 70%;
     }
 }
+
+
 
 @media (max-width:748px) {
     nav{
