@@ -395,9 +395,9 @@ footer .icon-footer{
         font-weight: 600;
     }
      input{
-        margin-left: 10px;
+        /* margin-left: 10px;
         width: 80%;
-        padding: 2% 4%;
+        padding: 2% 4%; */
     }
     #search .bi-search{
         /* right: 15%;
@@ -498,7 +498,7 @@ footer .icon-footer{
 }
 @media (max-width: 360px) {
     input{
-        width: 83%;
+        /* width: 83%; */
     }
      .bi-search {
         border: 1px solid rgba(188, 188, 188, 0.646);
@@ -708,7 +708,7 @@ footer .icon-footer{
     }
     header input{
         
-        width: 100%;
-        padding: 4px 3rem;
+        /* width: 100%;
+        padding: 4px 3rem; */
     }
 }
