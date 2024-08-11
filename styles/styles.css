@@ -23,6 +23,7 @@ header{
     z-index: 99;
     position: fixed;
     top: 0;
+    gap: 4rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -33,11 +34,18 @@ header p{
     font-family: "Ubuntu";
     font-weight: 600;
 }
+#search{
+    position: relative;
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+}
 input {
     border-radius: 10px;
-    padding: 2% 4%;
+    padding: 1px 3px;
     border: 1px solid rgb(122 116 116 / 31%);
     outline: none;
+    flex: 1;
     
 }
 input:focus{
@@ -45,24 +53,25 @@ input:focus{
     box-shadow: 0px 0px 6px 1px rgba(23, 23, 23, 0.269);
     outline: 1px solid rgb(107, 105, 105);
 }
-#search{
-    position: relative;
-}
 
-#search .bi-search {
+ .bi-search {
     border: 1px solid rgba(188, 188, 188, 0.646);
     background: #dcdcdcb3;
     border-radius: 20px;
     font-size: 13px;
     position: absolute;
-    top: 16%;
-    right: 2%;
+    top: 10%;
+    right: 0%;
     padding: 0 3px;
     
+}
+.icon{
+    display: flex;
 }
 .bi-cart3{
     margin-left: 10px;
 }
+   
 /* Category */
 nav{
     width: 100%;
