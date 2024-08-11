@@ -400,8 +400,8 @@ footer .icon-footer{
         padding: 2% 4%;
     }
     #search .bi-search{
-        right: 15%;
-        top: 15%;
+        /* right: 15%;
+        top: 15%; */
         padding: 0 2px;
         font-size: 11px;
     }
@@ -500,14 +500,14 @@ footer .icon-footer{
     input{
         width: 83%;
     }
-    #search .bi-search {
+     .bi-search {
         border: 1px solid rgba(188, 188, 188, 0.646);
         background: #dcdcdcb3;
         border-radius: 20px;
         font-size: 13px;
         position: absolute;
-        top: 16%;
-        right: 18%;
+        /* top: 16%;
+        right: 18%; */
         padding: 0 3px;
         opacity: 0;
     }
@@ -554,14 +554,14 @@ footer .icon-footer{
         border:none ;
     }
 
-    #search .bi-search {
+     .bi-search {
         border: 1px solid rgba(188, 188, 188, 0.646);
         background: #dcdcdcb3;
         border-radius: 20px;
         font-size: 13px;
         position: absolute;
-        top: 16%;
-        right: 15%;
+        /* top: 16%;
+        right: 15%; */
         padding: 0 3px;
     }
     
@@ -633,14 +633,14 @@ footer .icon-footer{
         padding: 5px;
         border:none ;
     }
-    #search .bi-search {
+     .bi-search {
         border: 1px solid rgba(188, 188, 188, 0.646);
         background: #dcdcdcb3;
         border-radius: 20px;
         font-size: 13px;
         position: absolute;
-        top: 16%;
-        right: -7%;
+        /* top: 16%;
+        right: -7%; */
         padding: 0 3px;
     }
     .main{
