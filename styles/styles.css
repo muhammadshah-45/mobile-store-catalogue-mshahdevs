@@ -519,6 +519,7 @@ footer .icon-footer{
 @media (max-width:560px) {
     header{
         justify-content: space-around;
+        gap: 1rem;
     }
     nav{
         opacity: 1;
